@@ -1,3 +1,56 @@
 /* Your Styles Here */
-body{
+body {
+    background-color: #98B06F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Electrolize, sans-serif;
 }
+
+h1, p {
+    color: #726E60;
+}
+
+h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.card {
+    text-align: center;
+    width: 50%;
+    border: 5px solid #B6DC76;
+    border-radius: 5%;
+    background-color: #DBFF76;
+}
+
+.image {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
